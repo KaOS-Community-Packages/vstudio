@@ -5,4 +5,4 @@ MySQL, MariaDB, PostgreSQL, MS SQL Server, Valentina DB and SQLite GUI Admin Too
 
 
 
-ttp://www.valentina-db.com
+http://www.valentina-db.com
