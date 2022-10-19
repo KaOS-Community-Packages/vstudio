@@ -1,12 +1,12 @@
 pkgname=vstudio
-pkgver=12.5.7
+pkgver=12.5.8
 pkgrel=1
 pkgdesc="GUI Admin Tool for MySQL, MariaDB, PostgreSQL, MS SQL Server, Valentina DB and SQLite"
 arch=('x86_64')
 url="http://www.valentina-db.com"
 license=('custom')
 source=("vstudio_x64_${pkgver}_lin.deb::https://valentina-db.com/en/all-downloads/vstudio/current/vstudio_x64_lin_deb")
-md5sums=('370dcda13f303fbefb52980f5adf7796')
+md5sums=('7f0ed4672c4cfdd0ae57290287a22037')
 
 package() {
     bsdtar -xf data.tar.xz -C ${pkgdir}
